@@ -5,8 +5,8 @@ suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
     // #1
     test('#isNull, #isNotNull', function () {
-      assert.isFalse(null, 'j1');
-      assert.isTrue(1, 'j2');
+      assert.isNull(null, 'j1');
+      assert.isNotNull(1, 'j2');
     });
     // #2
     test('#isDefined, #isUndefined', function () {
